@@ -1,0 +1,335 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul, li, ol {
+    list-style: none;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.float_l{ float:left;}
+.float_r{ float:right;}
+.clear{ clear:both;}
+.header{
+	width: 1366px;
+    height: 106px;
+    margin: 0 auto;
+	background-color:white ;
+}
+.header logo{
+	margin: 0 50px;
+    top: 40px;
+}
+.header .tel{
+	right:15%; 
+	top:16px; 
+	font-size:12px; 
+	color:#999; 
+	line-height:1em; 
+	background:url(../img/tel.png) no-repeat left center; 
+	padding-left:35px;
+	}
+.header .tel p{ 
+	margin: 0;
+	padding: 0;
+	font-size:22px;
+	font-weight:900;
+	color:#00b3e1;
+	line-height:1em;}
+.header .nav {
+    right: 15%;
+    top: 60px;
+}
+.header .nav li {
+    float: left;
+    
+    position: relative;
+}
+.header .nav li a {
+    color: #333;
+    margin-bottom: 0;
+    padding: 0 24px 0;
+    text-decoration: none;
+    font-size: 14px;
+    height: 45px;
+    line-height: 40px;
+    display: block;
+    border-bottom: 1px solid #00b3e1;
+}
+.header .nav li span {
+    height: 3px;
+    width: 0;
+    display: block;
+    background: #00b3e1;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transition: 0.3s;
+} 
+.header .nav li a:hover {
+    color: #00b3e1;
+}
+.header .logo, .header .tel, .header .nav {
+    position: absolute;
+}
+.ny_banner {
+    width: 100%;
+    overflow: hidden;
+    height: 280px;
+    min-width: 1100px;
+}
+.ny_main {
+    width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.aside {
+    width: 235px;
+    position: relative;
+    top: -90px;
+}
+.aside_list {
+    border-bottom: 5px solid #e9e9e9;
+    position: relative;
+    margin-bottom: 70px;
+}
+.aside_list li a {
+    display: block;
+    text-decoration: none;
+    line-height: 50px;
+    border-bottom: 1px solid #eaeaea;
+    background: #f7f7f7;
+    color: #666;
+    font-size: 16px;
+    padding-left: 28px;
+    position: relative;
+}
+.aside_list li a:hover,
+.aside_list li.active a{ 
+	background:#fff;
+	color:#14b9e3;
+}
+.aside_list li a i{ 
+	width:7px; 
+	height:12px; 
+	display:block; 
+	background:url(../img/aside_list_bg.png); 
+	position:absolute; 
+	top:50%; 
+	margin-top:-6px; 
+	left:125px; 
+	transition:left 0.3s;
+}
+.aside_list li a:hover i,
+.aside_list li .active a i{ 
+	left:135px; 
+	background-position:left bottom;
+}
+.aside_box .title {
+    height: 50px;
+    background: #00b3e1 url(../img/aside_title_bg.png) no-repeat 190px center;
+    color: #fff;
+    font-size: 20px;
+    padding-left: 28px;
+    line-height: 50px;
+}
+.aside_box .con {
+    background: #f7f7f7;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    border-bottom: 5px solid #e9e9e9;
+}
+.aside_box .con .tel {
+    padding: 35px 30px;
+    border-bottom: 1px solid #eaeaea;
+    line-height: 1.8em;
+}
+.aside_box .con .tel span {
+    display: block;
+    font-size: 24px;
+    color: #00b3e1;
+    font-weight: 900;
+}
+.aside_box .con .liuyan {
+    padding: 25px 30px;
+}
+.aside_box .con .liuyan a {
+    display: inline-block;
+    color: #fff;
+    background: #00b3e1;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+}
+.ny_con {
+    width: 830px;
+}
+.ny_con .title {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 50px;
+}
+.ny_con .title h1 {
+    font-size: 18px;
+    color: #00408f;
+    border-bottom: 1px solid #00408f;
+    padding-left: 25px;
+    background: url(../img/main_h1_bg.png) no-repeat left center;
+}
+.ny_con .title .link {
+    background: url(../img/weizhi.png) no-repeat left center;
+    padding-left: 15px;
+}
+.ny_con .title .link, .ny_con .title .link a {
+    font-size: 12px;
+    color: #666;
+}
+.ny_ab_con p {
+    font-size: 16px;
+    line-height: 1.6em;
+    text-indent: 2em;
+    padding: 5px 0;
+}
+.ny_con .title h1{ 
+	font-size:18px; 
+	color:#00408f; 
+	border-bottom:1px solid #00408f; 
+	padding-left:25px; 
+	background:url(../img/main_h1_bg.png) no-repeat left center;
+}
+.ny_con .title .link,
+.ny_con .title .link a{ 
+	font-size:12px; 
+	color:#666; 
+}
+.ny_con .title .link{
+	background:url(../img/weizhi.png) no-repeat left center; 
+	padding-left:15px;
+}
+.ny_con  b.more{ 
+	display:block; 
+	width:20px; 
+	height:20px; 
+	background:#d2d2d2; 
+	position:absolute; 
+	bottom:0; 
+	right:-1px; 
+	text-align:center; 
+	line-height:20px; 
+	color:#fff; 
+	font-size:18px; 
+	transition:0.3s;
+}
+.ny_con ul.page{ 
+	text-align:center;
+}
+.ny_con ul.page li{ 
+	line-height:30px; 
+	border:1px solid #d2d2d2; 
+	display:inline-block;padding:0 10px; 
+	cursor:pointer;
+}
+.ny_con ul.page li:hover{ 
+	background:#0f4b96; 
+	border:1px solid #0f4b96; 
+	color:#fff;
+}
+.ny_con p{ 
+	line-height:1.6em;
+}
+.footer{
+	margin: 0;
+	padding: 0;
+	height: 250px;
+	background-color:#00b3e1;
+}
+.footer .ft_top{
+	width: 960px;
+    height: 216px;
+    margin: 0 auto;
+	background-color:#00b3e1;
+}
+.footer .ft_btm{
+	margin: 0;
+	padding: 0;
+	height: 34px;
+	background-color:#00408f;
+}
+.ft_logo {
+    float: left;
+    margin-top: 40px;
+}
+.ft_tex{
+	float: left;
+    margin-top: 50px;
+    margin-left:50px ;
+}
+.ft_tex h2 {
+    font-size: 14px;
+    color: #fff;
+    line-height: 1em;
+}
+.ft_tex p {
+    font-size: 12px;
+    color: #fff;
+    line-height: 1.7em;
+    margin: 15px 0;
+}
+.ft_tel {
+    padding-left: 25px;
+    background: url(../img/ft_tel.png) no-repeat left center;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 900;
+}
+.ft_img{
+	float: right;
+	margin-top: 55px;
+}
+.ft_btm .link {
+    float: left;
+    font-size: 12px;
+    color: #fff;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #fff;
+    margin-top:5px;
+    margin-left:70px ;
+    padding: 0 10px;
+    cursor: pointer;
+    position: relative;
+}
+.ft_btm .link ul {
+    position: absolute;
+    bottom: 20px;
+    left: -1px;
+    border: 1px solid #fff;
+    display:none;
+}
+.ft_btm .link li a {
+    display: block;
+    background: #fff;
+    color: #333;
+    width: 100px;
+    padding: 0 10px;
+    line-height: 20px;
+}
+.ft_btm .copy{
+	font-size: 14px;
+	color: white;
+	float: right;
+	margin-top: 8px;
+	margin-right: 70px;
+}

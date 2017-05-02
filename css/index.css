@@ -363,9 +363,11 @@ p {
     transition: 0.3s;
     cursor: pointer;
 }
-.news_c_left .left .btn:hover,
+.news_c_left .left .btn:hover{
+	width: 160px !important;
+}
 .news_c_left .left .btn.active{
-	width: 160px;
+	width: 160px ;
 }
 .news_c_left .left .xinwen {
     background: #00b3e1;
